@@ -3,12 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Türkçe ve Türk Kültürü Dersleri – Ön Kayıt Sayfası</title>
+<title>Türkçe ve Türk Kültürü Dersleri – Romanya</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --primary: #2b5876;
-    --primary-dark: #4e4376;
+    --red: #D72638;
     --teal: #00A99D;
     --gold: #F5A623;
     --dark: #1a1a2e;
@@ -27,7 +26,7 @@
 
   /* HERO */
   .hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 40%, var(--dark) 100%);
+    background: linear-gradient(135deg, #D72638 0%, #9b1a26 40%, #1a1a2e 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -82,19 +81,13 @@
     animation: floatIn 0.9s 0.25s ease both;
   }
 
-  .hero-info {
-    font-size: clamp(0.9rem, 1.3vw, 1.05rem);
-    color: rgba(255,255,255,0.9);
-    max-width: 760px;
-    margin-top: 10px;
+  .hero-ro {
+    font-size: clamp(0.9rem, 2vw, 1.05rem);
+    color: rgba(255,255,255,0.6);
+    max-width: 580px;
+    font-style: italic;
     margin-bottom: 40px;
     animation: floatIn 0.9s 0.35s ease both;
-    line-height: 1.6;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 18px 24px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    text-align: center;
   }
 
   .badge-row {
@@ -214,7 +207,7 @@
     box-shadow: 0 16px 48px rgba(0,0,0,0.12);
   }
 
-  .feat-card:nth-child(1) { border-color: var(--primary); }
+  .feat-card:nth-child(1) { border-color: var(--red); }
   .feat-card:nth-child(2) { border-color: var(--teal); }
   .feat-card:nth-child(3) { border-color: var(--gold); }
   .feat-card:nth-child(4) { border-color: #9b59b6; }
@@ -281,7 +274,7 @@
 
   /* FOOTER CTA */
   .footer-cta {
-    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    background: linear-gradient(135deg, var(--red), #9b1a26);
     padding: 64px 24px;
     text-align: center;
   }
@@ -329,38 +322,32 @@
 <section class="hero">
   <img src="logo.png" alt="Ülkem Yanımda Logo" class="hero-logo">
 
-  <h1>Çevrim İçi <span>Türkçe ve Türk Kültürü Dersi</span> Ön Kayıtları Başlıyor!</h1>
+  <h1>Türkçe ve <span>Türk Kültürü</span> Ders Kayıtları Başlıyor!</h1>
 
-  <p class="hero-sub">Yurt dışında yaşayan Türk vatandaşları ve soydaşlarımızın çocuklarına yönelik 5–16 yaş grubuna özel ücretsiz çevrim içi dersler.</p>
-  
-  <div class="hero-info">
-    <strong>Önemli Bilgilendirme:</strong> Eğitimlerimiz Eylül – Haziran ayları arasında gerçekleşmektedir. 
-    Ana kayıt dönemlerimiz 1. Dönem için Temmuz–Ağustos, 2. Dönem için Ocak ayıdır. Bunun dışında normal kayıtlarımız kapalı olmaktadır. 
-    <br><br>
-    Ancak <strong>Ülkem Yanımda</strong> ile ilgileniyorsanız, ders almak ve öğrenci olmak istiyorsanız kayıt dönemini beklemeyin! 
-    Aşağıdaki ön kayıt formunu doldurun, biz sizinle ilk fırsatta iletişime geçip mümkün olan en yakın döneme kayıt olmanızı sağlayalım.
-  </div>
+  <p class="hero-sub">Romanya'daki Türk vatandaşları ve soydaşlarımızın çocuklarına yönelik 5–16 yaş grubuna özel ücretsiz çevrim içi dersler.</p>
+  <p class="hero-ro">Cursuri online gratuite de limbă și cultură turcă pentru copii între 5 și 16 ani din România.</p>
 
   <div class="badge-row">
-    <div class="badge">🎓 Ücretsiz</div>
-    <div class="badge">💻 Çevrim İçi</div>
-    <div class="badge">👦 5–16 Yaş</div>
-    <div class="badge">📝 Seviyenize Uygun Sınıflar</div>
+    <div class="badge">🎓 Ücretsiz / Gratuit</div>
+    <div class="badge">💻 Çevrim İçi / Online</div>
+    <div class="badge">👦 5–16 Yaş / Ani</div>
+    <div class="badge">🗓️ Mart 2026</div>
   </div>
 
   <div class="cta-wrap">
-    <div class="cta-label">Hemen Ön Kayıt Ol</div>
+    <div class="cta-label">Hemen Kayıt Ol / Înscrie-te acum</div>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_zupFQn3LLUdcujc-12C8yqlQbvJkR02Z34s6tPvYMMLTxA/viewform?usp=dialog"
        target="_blank" class="cta-btn">
       <span class="cta-icon">📝</span>
-      ÖN KAYIT FORMUNU AÇ &nbsp;→
+      KAYIT FORMUNU AÇ &nbsp;→
     </a>
   </div>
 </section>
 
 <!-- DATE BANNER -->
 <div class="date-banner">
-  📅 Kayıt Dönemini Beklemeyin! &nbsp;<span>Ön Kayıt Yaptırarak Sıraya Girin</span>
+  📅 2025–2026 Eğitim Yılı Bahar Dönemi Kayıt Tarihleri: &nbsp;<span>1–15 Mart 2026</span>
+  &nbsp;|&nbsp; Data de înscriere: &nbsp;<span>1–15 Martie 2026</span>
 </div>
 
 <!-- FEATURES -->
@@ -368,29 +355,30 @@
   <div class="feat-card">
     <div class="feat-icon">🎭</div>
     <h3>Kültürel Etkinlikler</h3>
-    <p>Türk kültürünü yaşatan etkinlikler ve deneyimler.</p>
+    <p>Evenimente Culturale — Türk kültürünü yaşatan etkinlikler ve deneyimler.</p>
   </div>
   <div class="feat-card">
     <div class="feat-icon">👩‍🏫</div>
     <h3>Uzman Öğretmenler</h3>
-    <p>Alanında deneyimli, uzman eğitmenlerle etkili öğrenme.</p>
+    <p>Profesori specializați — Alanında deneyimli, uzman eğitmenlerle etkili öğrenme.</p>
   </div>
   <div class="feat-card">
     <div class="feat-icon">📡</div>
     <h3>Canlı Çevrim İçi Dersler</h3>
-    <p>Evinizden katılabileceğiniz ücretsiz canlı dersler.</p>
+    <p>Cursuri live online gratuite — Evinizden katılabileceğiniz ücretsiz canlı dersler.</p>
   </div>
   <div class="feat-card">
     <div class="feat-icon">🏆</div>
     <h3>Oyunlar & Yarışmalar</h3>
-    <p>Öğrenmeyi eğlenceli kılan oyunlar ve yarışmalar.</p>
+    <p>Jocuri, competiții — Öğrenmeyi eğlenceli kılan oyunlar ve yarışmalar.</p>
   </div>
 </section>
 
 <!-- INFO -->
 <section class="info">
   <h2>Kimler Katılabilir?</h2>
-  <p>Bu program, yurt dışında yaşayan Türk vatandaşları ve soydaşlarımızın <strong>5–16 yaş arasındaki</strong> çocuklarına yöneliktir. Kayıt ve dersler tamamen <strong>ücretsizdir</strong>.</p>
+  <p>Bu program, Romanya'da yaşayan Türk vatandaşları ve soydaşlarımızın <strong>5–16 yaş arasındaki</strong> çocuklarına yöneliktir. Kayıt ve dersler tamamen <strong>ücretsizdir</strong>.</p>
+  <p style="font-style:italic; color: rgba(255,255,255,0.55);">Programul este dedicat cetățenilor turci și copiilor din comunitatea noastră din România, cu vârste între 5 și 16 ani. Înscrierea și cursurile sunt complet gratuite.</p>
 
   <div class="contact-row">
     <a href="https://ulkemyanimda.eba.gov.tr/kayit/" target="_blank" class="contact-chip">🌐 ulkemyanimda.eba.gov.tr/kayit/</a>
@@ -400,12 +388,12 @@
 
 <!-- FOOTER CTA -->
 <section class="footer-cta">
-  <h2>Kayıt Dönemini Beklemeyin!</h2>
-  <p>Ön kayıt formunu doldurun, kayıt dönemlerinde ilk önce sizinle iletişime geçelim.</p>
+  <h2>Kayıt Olmak İçin Forma Tıkla!</h2>
+  <p>Înscrie-te acum completând formularul de mai jos!</p>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_zupFQn3LLUdcujc-12C8yqlQbvJkR02Z34s6tPvYMMLTxA/viewform?usp=dialog"
      target="_blank" class="cta-btn" style="font-size:1.1rem; padding:18px 40px;">
     <span class="cta-icon">📝</span>
-    ÖN KAYIT FORMUNU AÇ &nbsp;→
+    KAYIT FORMUNU AÇ &nbsp;→
   </a>
 </section>
 
